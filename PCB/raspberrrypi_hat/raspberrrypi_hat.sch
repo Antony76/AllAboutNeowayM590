@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Raspberry Pi HAT"
 Date ""
 Rev "A"
@@ -119,8 +119,6 @@ F 3 "" H 1900 2250 50  0000 C CNN
 	1    2600 2250
 	1    0    0    -1  
 $EndComp
-Text Label 3150 7400 2    60   ~ 0
-P3V3
 $Comp
 L CONN_02X02 J6
 U 1 1 58E13683
@@ -152,8 +150,6 @@ Text Notes 5450 4250 0    60   ~ 0
 FLEXIBLE POWER SELECTION
 Text Label 7150 2400 2    60   ~ 0
 P5V_HAT
-Wire Wire Line
-	6400 2400 7150 2400
 Text Label 5300 2400 0    60   ~ 0
 P5V
 Wire Wire Line
@@ -228,10 +224,10 @@ F 8 "" H -9000 -10950 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR4
 U 1 1 58E15A41
 P 5750 3800
-F 0 "#PWR01" H 5750 3550 50  0001 C CNN
+F 0 "#PWR4" H 5750 3550 50  0001 C CNN
 F 1 "GND" H 5750 3650 50  0000 C CNN
 F 2 "" H 5750 3800 50  0000 C CNN
 F 3 "" H 5750 3800 50  0000 C CNN
@@ -239,10 +235,10 @@ F 3 "" H 5750 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR5
 U 1 1 58E15A9E
 P 6550 3800
-F 0 "#PWR02" H 6550 3550 50  0001 C CNN
+F 0 "#PWR5" H 6550 3550 50  0001 C CNN
 F 1 "GND" H 6550 3650 50  0000 C CNN
 F 2 "" H 6550 3800 50  0000 C CNN
 F 3 "" H 6550 3800 50  0000 C CNN
@@ -334,10 +330,9 @@ Wire Wire Line
 	2150 7500 2150 7400
 Connection ~ 2150 7400
 Wire Wire Line
-	2500 7400 3150 7400
+	2500 7400 3450 7400
 Wire Wire Line
 	2700 7650 2500 7650
-Connection ~ 2700 7400
 Text Label 1250 7400 0    60   ~ 0
 ID_SD_EEPROM_pu
 Text Label 1250 7500 0    60   ~ 0
@@ -388,10 +383,10 @@ Wire Wire Line
 Wire Wire Line
 	2100 5350 2100 5450
 $Comp
-L GND #PWR03
+L GND #PWR1
 U 1 1 58E1A612
 P 1050 5750
-F 0 "#PWR03" H 1050 5500 50  0001 C CNN
+F 0 "#PWR1" H 1050 5500 50  0001 C CNN
 F 1 "GND" H 1050 5600 50  0000 C CNN
 F 2 "" H 1050 5750 50  0000 C CNN
 F 3 "" H 1050 5750 50  0000 C CNN
@@ -408,10 +403,10 @@ Connection ~ 1300 5750
 Wire Wire Line
 	1300 5850 1600 5850
 $Comp
-L GND #PWR04
+L GND #PWR2
 U 1 1 58E1AF98
 P 1050 6150
-F 0 "#PWR04" H 1050 5900 50  0001 C CNN
+F 0 "#PWR2" H 1050 5900 50  0001 C CNN
 F 1 "GND" H 1050 6000 50  0000 C CNN
 F 2 "" H 1050 6150 50  0000 C CNN
 F 3 "" H 1050 6150 50  0000 C CNN
@@ -549,7 +544,7 @@ P5V_HAT
 Wire Wire Line
 	3200 2250 4400 2250
 Wire Wire Line
-	2700 7650 2700 7400
+	2700 7400 2700 7650
 Text Notes 7150 4950 0    60   ~ 0
 HAT spec indicates to NEVER\npower the 3.3V pins on the Raspberry Pi \nfrom the HAT header. Only connect the 3.3V\npower from the Pi if the HAT does not have\n3.3V on board.\n\nIF you are designing a board that could\neither be powered by the Pi or from the HAT\nthe jumpers here can be used.\n\nIn most cases, either design the HAT \nto provide the 5V to the Pi and use the\nprotection circuit above OR power the\nHAT from the Pi and directly connect\nthe P3V3 and P5V to the P3V3_HAT and P5V_HAT\npins.
 Text Notes 1200 5200 0    60   ~ 0
@@ -559,10 +554,10 @@ These are just pullup resistors for the I2C bus on the EEPROM.\nThe resistor val
 Text Notes 850  1250 0    100  ~ 0
 This is based on the official Raspberry Pi spec to be able to call an extension board a HAT.\nhttps://github.com/raspberrypi/hats/blob/master/designguide.md
 $Comp
-L GND #PWR05
+L GND #PWR3
 U 1 1 58E3CC10
 P 2100 6350
-F 0 "#PWR05" H 2100 6100 50  0001 C CNN
+F 0 "#PWR3" H 2100 6100 50  0001 C CNN
 F 1 "GND" H 2100 6200 50  0000 C CNN
 F 2 "" H 2100 6350 50  0000 C CNN
 F 3 "" H 2100 6350 50  0000 C CNN
@@ -594,4 +589,27 @@ Wire Wire Line
 Connection ~ 1050 6100
 Wire Wire Line
 	950  6000 1550 6000
+Wire Wire Line
+	6400 2400 7150 2400
+Text Label 3150 7400 2    60   ~ 0
+P3V3
+Connection ~ 2700 7400
+$Sheet
+S 11100 2950 1850 2450
+U 59517BD0
+F0 "M590" 60
+F1 "M590.sch" 60
+$EndSheet
+Text HLabel 11100 3400 0    60   Input ~ 0
+TXD
+Text HLabel 11100 3600 0    60   Output ~ 0
+RXD
+Text HLabel 11100 4050 0    60   Output ~ 0
+RING
+Text HLabel 11100 4200 0    60   Input ~ 0
+BOOT
+Text HLabel 11100 4650 0    60   UnSpc ~ 0
+5V
+Text HLabel 11100 4900 0    60   UnSpc ~ 0
+GND
 $EndSCHEMATC
