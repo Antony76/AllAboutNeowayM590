@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/dev/workspace/AllAboutNeowayM590/PCB/raspberrrypi_hat/raspberrrypi_hat.sch</source>
+    <date>mer. 21 juin 2017 23:21:35 CEST</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Raspberry Pi HAT</title>
+        <company/>
+        <rev>A</rev>
+        <date/>
+        <source>raspberrrypi_hat.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PiHAT/" tstamps="/594B14D0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PiHAT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>40HAT</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x20</footprint>
+      <libsource lib="raspberrrypi_hat-cache" part="OX40HAT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DFC771</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>3mm_Mounting_Hole</value>
+      <footprint>project_footprints:NPTH_3mm_ID</footprint>
+      <fields/>
+      <libsource lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1AD1</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>3mm_Mounting_Hole</value>
+      <footprint>project_footprints:NPTH_3mm_ID</footprint>
+      <fields/>
+      <libsource lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1ADD</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>3mm_Mounting_Hole</value>
+      <footprint>project_footprints:NPTH_3mm_ID</footprint>
+      <fields/>
+      <libsource lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1AE9</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>3mm_Mounting_Hole</value>
+      <footprint>project_footprints:NPTH_3mm_ID</footprint>
+      <fields/>
+      <libsource lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1AF5</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_02X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x02</footprint>
+      <libsource lib="conn" part="CONN_02X02"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1AFC</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>DMG2305UX</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="raspberrypi_hat" part="DMG2305UX"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1B16</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMMT5401</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="raspberrypi_hat" part="DMMT5401"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1B1D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1B30</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>22</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1B3C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1B67</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B1B73</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CAT24C32</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="raspberrypi_hat" part="CAT24C32"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B25BF</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>3.9K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B25CB</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>3.9K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B25D7</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B25F4</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B2600</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
+      <tstamp>594B2623</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">3mm_Mounting_Hole</field>
+      </fields>
+    </libpart>
+    <libpart lib="raspberrypi_hat" part="CAT24C32">
+      <description>I2C Serial EEPROM 32Kb</description>
+      <footprints>
+        <fp>SOIC-8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CAT24C32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X02">
+      <description>Connector, double row, 02x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="raspberrypi_hat" part="DMG2305UX">
+      <description>Transistor P-MOSFET</description>
+      <footprints>
+        <fp>SOT-23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG2305UX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="raspberrypi_hat" part="DMMT5401">
+      <description>PNP Matched Transistor Pair</description>
+      <footprints>
+        <fp>SOT-26</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMMT5401</field>
+        <field name="Footprint">SOT-26</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="B" type="input"/>
+        <pin num="4" name="C" type="passive"/>
+        <pin num="5" name="E" type="passive"/>
+        <pin num="6" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="raspberrrypi_hat-cache" part="OX40HAT">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OX40HAT</field>
+        <field name="Footprint">OX40_Module_Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P3V3" type="BiDi"/>
+        <pin num="2" name="P5V" type="BiDi"/>
+        <pin num="3" name="BCM2" type="BiDi"/>
+        <pin num="4" name="P5V" type="BiDi"/>
+        <pin num="5" name="BCM3" type="BiDi"/>
+        <pin num="6" name="GND" type="BiDi"/>
+        <pin num="7" name="BCM4" type="BiDi"/>
+        <pin num="8" name="BCM14" type="BiDi"/>
+        <pin num="9" name="GND" type="BiDi"/>
+        <pin num="10" name="BCM15" type="BiDi"/>
+        <pin num="11" name="BCM17" type="BiDi"/>
+        <pin num="12" name="BCM18" type="BiDi"/>
+        <pin num="13" name="BCM27" type="BiDi"/>
+        <pin num="14" name="GND" type="BiDi"/>
+        <pin num="15" name="BCM22" type="BiDi"/>
+        <pin num="16" name="BCM23" type="BiDi"/>
+        <pin num="17" name="P3V3" type="BiDi"/>
+        <pin num="18" name="BCM24" type="BiDi"/>
+        <pin num="19" name="BCM10" type="BiDi"/>
+        <pin num="20" name="GND" type="BiDi"/>
+        <pin num="21" name="BCM9" type="BiDi"/>
+        <pin num="22" name="BCM25" type="BiDi"/>
+        <pin num="23" name="BCM11" type="BiDi"/>
+        <pin num="24" name="BCM8" type="BiDi"/>
+        <pin num="25" name="GND" type="BiDi"/>
+        <pin num="26" name="BCM7" type="BiDi"/>
+        <pin num="27" name="BCM0" type="BiDi"/>
+        <pin num="28" name="BCM1" type="BiDi"/>
+        <pin num="29" name="BCM5" type="BiDi"/>
+        <pin num="30" name="GND" type="BiDi"/>
+        <pin num="31" name="BCM6" type="BiDi"/>
+        <pin num="32" name="BCM12" type="BiDi"/>
+        <pin num="33" name="BCM13" type="BiDi"/>
+        <pin num="34" name="GND" type="BiDi"/>
+        <pin num="35" name="BCM19" type="BiDi"/>
+        <pin num="36" name="BCM16" type="BiDi"/>
+        <pin num="37" name="BCM26" type="BiDi"/>
+        <pin num="38" name="BCM20" type="BiDi"/>
+        <pin num="39" name="GND" type="BiDi"/>
+        <pin num="40" name="BCM21" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="raspberrypi_hat">
+      <uri>/home/dev/workspace/AllAboutNeowayM590/PCB/raspberrrypi_hat/project_components/raspberrypi_hat.lib</uri>
+    </library>
+    <library logical="raspberrrypi_hat-cache">
+      <uri>/home/dev/workspace/AllAboutNeowayM590/PCB/raspberrrypi_hat/raspberrrypi_hat-cache.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/P3V3_HAT">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J3" pin="20"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J3" pin="14"/>
+      <node ref="J3" pin="34"/>
+      <node ref="J3" pin="25"/>
+      <node ref="J3" pin="6"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J3" pin="30"/>
+      <node ref="J3" pin="39"/>
+    </net>
+    <net code="3" name="/ID_SD_EEPROM">
+      <node ref="J3" pin="27"/>
+    </net>
+    <net code="4" name="Net-(J3-Pad29)">
+      <node ref="J3" pin="29"/>
+    </net>
+    <net code="5" name="Net-(J3-Pad19)">
+      <node ref="J3" pin="19"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad38)">
+      <node ref="J3" pin="38"/>
+    </net>
+    <net code="7" name="Net-(J3-Pad18)">
+      <node ref="J3" pin="18"/>
+    </net>
+    <net code="8" name="/ID_SC_EEPROM">
+      <node ref="J3" pin="28"/>
+    </net>
+    <net code="9" name="/P5V_HAT">
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="10" name="Net-(J3-Pad12)">
+      <node ref="J3" pin="12"/>
+    </net>
+    <net code="11" name="Net-(J3-Pad31)">
+      <node ref="J3" pin="31"/>
+    </net>
+    <net code="12" name="Net-(J3-Pad21)">
+      <node ref="J3" pin="21"/>
+    </net>
+    <net code="13" name="Net-(J3-Pad11)">
+      <node ref="J3" pin="11"/>
+    </net>
+    <net code="14" name="Net-(J3-Pad40)">
+      <node ref="J3" pin="40"/>
+    </net>
+    <net code="15" name="Net-(J3-Pad10)">
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="16" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="18" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="19" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="20" name="Net-(J3-Pad37)">
+      <node ref="J3" pin="37"/>
+    </net>
+    <net code="21" name="Net-(J3-Pad32)">
+      <node ref="J3" pin="32"/>
+    </net>
+    <net code="22" name="Net-(J3-Pad22)">
+      <node ref="J3" pin="22"/>
+    </net>
+    <net code="23" name="Net-(J3-Pad17)">
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="24" name="Net-(J3-Pad36)">
+      <node ref="J3" pin="36"/>
+    </net>
+    <net code="25" name="Net-(J3-Pad26)">
+      <node ref="J3" pin="26"/>
+    </net>
+    <net code="26" name="Net-(J3-Pad16)">
+      <node ref="J3" pin="16"/>
+    </net>
+    <net code="27" name="Net-(J3-Pad35)">
+      <node ref="J3" pin="35"/>
+    </net>
+    <net code="28" name="Net-(J3-Pad24)">
+      <node ref="J3" pin="24"/>
+    </net>
+    <net code="29" name="Net-(J3-Pad33)">
+      <node ref="J3" pin="33"/>
+    </net>
+    <net code="30" name="Net-(J3-Pad23)">
+      <node ref="J3" pin="23"/>
+    </net>
+    <net code="31" name="Net-(J3-Pad13)">
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="32" name="Net-(J3-Pad15)">
+      <node ref="J3" pin="15"/>
+    </net>
+    <net code="33" name="/PiHAT/ID_SD_EEPROM">
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="34" name="/PiHAT/ID_SC_EEPROM">
+      <node ref="U1" pin="5"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="35" name="/PiHAT/P3V3">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="36" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="37" name="/PiHAT/P5V_HAT">
+      <node ref="J1" pin="4"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="38" name="/PiHAT/P3V3_HAT">
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="39" name="/PiHAT/P5V">
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q1" pin="6"/>
+    </net>
+    <net code="40" name="Net-(Q1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q1-Pad4)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+  </nets>
+</export>
