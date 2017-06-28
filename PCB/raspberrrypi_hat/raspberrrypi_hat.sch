@@ -596,7 +596,7 @@ P3V3
 Connection ~ 2700 7400
 Wire Wire Line
 	10650 4250 11100 4250
-Text Label 10800 4100 0    60   ~ 0
+Text Label 10650 4100 0    60   ~ 0
 P5V
 Wire Wire Line
 	10650 4250 10650 4450
@@ -625,4 +625,24 @@ F5 "RING" I L 11100 3650 60
 F6 "BOOT" O L 11100 3800 60 
 F7 "GND" U L 11100 4250 60 
 $EndSheet
+Wire Wire Line
+	3200 2550 4400 2550
+Wire Wire Line
+	3200 2650 4400 2650
+Wire Wire Line
+	10650 3150 11100 3150
+Wire Wire Line
+	11100 3300 10650 3300
+Text Label 10650 3150 0    60   ~ 0
+RXD
+Text Label 10650 3300 0    60   ~ 0
+TXD
+Text Label 4400 2550 2    60   ~ 0
+RXD
+Text Label 4400 2650 2    60   ~ 0
+TXD
+Text Notes 3200 2550 0    60   ~ 0
+(Pi TXD0)
+Text Notes 3200 2650 0    60   ~ 0
+(Pi RXD0)
 $EndSCHEMATC
