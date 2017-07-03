@@ -114,7 +114,7 @@ U 1 1 58DFC771
 P 2100 1600
 F 0 "J1" H 2450 1700 50  0000 C CNN
 F 1 "40HAT" H 1800 1700 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x20" H 2100 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 2100 1800 50  0000 C CNN
 F 3 "" H 1400 1600 50  0000 C CNN
 	1    2100 1600
 	1    0    0    -1  
@@ -125,7 +125,7 @@ U 1 1 58E13683
 P 5500 6250
 F 0 "J2" H 5500 6400 50  0000 C CNN
 F 1 "CONN_02X02" H 5500 6100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02" H 5500 5050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 5500 5050 50  0001 C CNN
 F 3 "" H 5500 5050 50  0000 C CNN
 	1    5500 6250
 	1    0    0    -1  
@@ -135,25 +135,17 @@ P3V3
 Text Label 4650 6300 0    60   ~ 0
 P5V
 Wire Wire Line
-	4650 6200 5150 6200
+	4650 6200 5250 6200
 Wire Wire Line
-	5150 6200 5250 6200
-Wire Wire Line
-	4650 6300 5150 6300
-Wire Wire Line
-	5150 6300 5250 6300
+	4650 6300 5250 6300
 Text Label 6350 6200 2    60   ~ 0
 P3V3_HAT
 Text Label 6350 6300 2    60   ~ 0
 P5V_HAT
 Wire Wire Line
-	5750 6200 5800 6200
+	5750 6200 6350 6200
 Wire Wire Line
-	5800 6200 6350 6200
-Wire Wire Line
-	5750 6300 5800 6300
-Wire Wire Line
-	5800 6300 6350 6300
+	5750 6300 6350 6300
 Text Notes 4850 5850 0    60   ~ 0
 FLEXIBLE POWER SELECTION
 Text Label 6400 2000 2    60   ~ 0
@@ -161,9 +153,7 @@ P5V_HAT
 Text Label 4550 2000 0    60   ~ 0
 P5V
 Wire Wire Line
-	4550 2000 5000 2000
-Wire Wire Line
-	5000 2000 5150 2000
+	4550 2000 5150 2000
 Text Notes 4400 1350 0    118  ~ 24
 5V Powered HAT Protection
 Text Notes 4150 1650 0    60   ~ 0
@@ -234,10 +224,10 @@ F 8 "" H -9750 -11350 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 58E15A41
 P 5000 3400
-F 0 "#PWR1" H 5000 3150 50  0001 C CNN
+F 0 "#PWR01" H 5000 3150 50  0001 C CNN
 F 1 "GND" H 5000 3250 50  0000 C CNN
 F 2 "" H 5000 3400 50  0000 C CNN
 F 3 "" H 5000 3400 50  0000 C CNN
@@ -245,10 +235,10 @@ F 3 "" H 5000 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR02
 U 1 1 58E15A9E
 P 5800 3400
-F 0 "#PWR2" H 5800 3150 50  0001 C CNN
+F 0 "#PWR02" H 5800 3150 50  0001 C CNN
 F 1 "GND" H 5800 3250 50  0000 C CNN
 F 2 "" H 5800 3400 50  0000 C CNN
 F 3 "" H 5800 3400 50  0000 C CNN
@@ -260,24 +250,18 @@ Wire Wire Line
 Wire Wire Line
 	5800 3400 5800 3350
 Wire Wire Line
-	5800 2800 5800 2900
-Wire Wire Line
-	5800 2900 5800 3050
+	5800 2800 5800 3050
 Wire Wire Line
 	5400 2250 5400 2900
 Wire Wire Line
 	5400 2900 5800 2900
 Connection ~ 5800 2900
 Wire Wire Line
-	5000 2800 5000 2950
-Wire Wire Line
-	5000 2950 5000 3050
+	5000 2800 5000 3050
 Wire Wire Line
 	5300 2600 5300 2950
 Wire Wire Line
-	5000 2950 5300 2950
-Wire Wire Line
-	5300 2950 5500 2950
+	5000 2950 5500 2950
 Connection ~ 5000 2950
 Wire Wire Line
 	5500 2950 5500 2600
@@ -332,13 +316,9 @@ F 8 "" H -13600 -7750 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	850  6350 1750 6350
+	850  6350 1800 6350
 Wire Wire Line
-	1750 6350 1800 6350
-Wire Wire Line
-	850  6600 1750 6600
-Wire Wire Line
-	1750 6600 1800 6600
+	850  6600 1800 6600
 Wire Wire Line
 	1750 6450 850  6450
 Wire Wire Line
@@ -350,9 +330,7 @@ Wire Wire Line
 	1750 6450 1750 6350
 Connection ~ 1750 6350
 Wire Wire Line
-	2100 6350 2300 6350
-Wire Wire Line
-	2300 6350 3050 6350
+	2100 6350 3050 6350
 Wire Wire Line
 	2300 6600 2100 6600
 Text Label 850  6350 0    60   ~ 0
@@ -377,7 +355,7 @@ U 1 1 58E18D32
 P 800 5200
 F 0 "J3" H 800 5350 50  0000 C CNN
 F 1 "CONN_01X02" V 900 5200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 800 5200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 800 5200 50  0001 C CNN
 F 3 "" H 800 5200 50  0000 C CNN
 	1    800  5200
 	-1   0    0    1   
@@ -405,10 +383,10 @@ Wire Wire Line
 Wire Wire Line
 	2150 4500 2150 4600
 $Comp
-L GND #PWR4
+L GND #PWR03
 U 1 1 58E1A612
 P 1100 4900
-F 0 "#PWR4" H 1100 4650 50  0001 C CNN
+F 0 "#PWR03" H 1100 4650 50  0001 C CNN
 F 1 "GND" H 1100 4750 50  0000 C CNN
 F 2 "" H 1100 4900 50  0000 C CNN
 F 3 "" H 1100 4900 50  0000 C CNN
@@ -416,23 +394,19 @@ F 3 "" H 1100 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 4800 1350 4900
+	1350 4800 1350 5000
 Wire Wire Line
-	1350 4900 1350 5000
-Wire Wire Line
-	1100 4800 1350 4800
-Wire Wire Line
-	1350 4800 1650 4800
+	1100 4800 1650 4800
 Wire Wire Line
 	1650 4900 1350 4900
 Connection ~ 1350 4900
 Wire Wire Line
 	1350 5000 1650 5000
 $Comp
-L GND #PWR5
+L GND #PWR04
 U 1 1 58E1AF98
 P 1100 5300
-F 0 "#PWR5" H 1100 5050 50  0001 C CNN
+F 0 "#PWR04" H 1100 5050 50  0001 C CNN
 F 1 "GND" H 1100 5150 50  0000 C CNN
 F 2 "" H 1100 5300 50  0000 C CNN
 F 3 "" H 1100 5300 50  0000 C CNN
@@ -580,10 +554,10 @@ These are just pullup resistors for the I2C bus on the EEPROM.\nThe resistor val
 Text Notes 650  900  0    100  ~ 0
 This is based on the official Raspberry Pi spec to be able to call an extension board a HAT.\nhttps://github.com/raspberrypi/hats/blob/master/designguide.md
 $Comp
-L GND #PWR6
+L GND #PWR05
 U 1 1 58E3CC10
 P 2150 5500
-F 0 "#PWR6" H 2150 5250 50  0001 C CNN
+F 0 "#PWR05" H 2150 5250 50  0001 C CNN
 F 1 "GND" H 2150 5350 50  0000 C CNN
 F 2 "" H 2150 5500 50  0000 C CNN
 F 3 "" H 2150 5500 50  0000 C CNN
@@ -599,13 +573,9 @@ Wire Wire Line
 Wire Wire Line
 	1600 5700 1600 5550
 Wire Wire Line
-	1500 5200 1600 5200
+	1500 5200 1650 5200
 Wire Wire Line
-	1600 5200 1650 5200
-Wire Wire Line
-	1600 5150 1600 5200
-Wire Wire Line
-	1600 5200 1600 5250
+	1600 5150 1600 5250
 Wire Wire Line
 	1100 4800 1100 4900
 Connection ~ 1350 4800
@@ -613,18 +583,14 @@ Wire Wire Line
 	1500 5200 1500 5250
 Connection ~ 1600 5200
 Wire Wire Line
-	1000 5250 1100 5250
-Wire Wire Line
-	1100 5250 1200 5250
+	1000 5250 1200 5250
 Wire Wire Line
 	1100 5300 1100 5250
 Connection ~ 1100 5250
 Wire Wire Line
 	1000 5150 1600 5150
 Wire Wire Line
-	5650 2000 5800 2000
-Wire Wire Line
-	5800 2000 6400 2000
+	5650 2000 6400 2000
 Text Label 2750 6350 2    60   ~ 0
 P3V3
 Connection ~ 2300 6350
@@ -633,10 +599,10 @@ Wire Wire Line
 Text Label 8300 5000 0    60   ~ 0
 P5V
 $Comp
-L GND #PWR3
+L GND #PWR06
 U 1 1 5952BEE9
 P 8300 4650
-F 0 "#PWR3" H 8300 4400 50  0001 C CNN
+F 0 "#PWR06" H 8300 4400 50  0001 C CNN
 F 1 "GND" H 8300 4500 50  0000 C CNN
 F 2 "" H 8300 4650 50  0000 C CNN
 F 3 "" H 8300 4650 50  0000 C CNN
@@ -682,10 +648,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 5150 8300 5350
 $Comp
-L GND #PWR?
+L GND #PWR07
 U 1 1 5955690F
 P 8300 5350
-F 0 "#PWR?" H 8300 5100 50  0001 C CNN
+F 0 "#PWR07" H 8300 5100 50  0001 C CNN
 F 1 "GND" H 8300 5200 50  0000 C CNN
 F 2 "" H 8300 5350 50  0000 C CNN
 F 3 "" H 8300 5350 50  0000 C CNN
@@ -698,4 +664,6 @@ Text Notes 7750 3000 0    118  ~ 24
 GSM/GPRS Neoway M590 modem
 Text Notes 7800 3450 0    60   ~ 0
 Version 0.1\nBOOT is right to GND and should be managed by Pi GPIO\nRING is not used
+Connection ~ 4400 5050
+Connection ~ 4400 5100
 $EndSCHEMATC

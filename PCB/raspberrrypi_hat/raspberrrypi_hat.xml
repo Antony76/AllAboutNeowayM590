@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/dev/workspace/AllAboutNeowayM590/PCB/raspberrrypi_hat/raspberrrypi_hat.sch</source>
-    <date>mer. 21 juin 2017 23:21:35 CEST</date>
+    <date>mer. 28 juin 2017 23:42:45 CEST</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -17,13 +17,13 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/PiHAT/" tstamps="/594B14D0/">
+    <sheet number="2" name="/M590/" tstamps="/59517BD0/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>PiHAT.sch</source>
+        <source>M590.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -32,69 +32,69 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J3">
-      <value>40HAT</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_2x20</footprint>
-      <libsource lib="raspberrrypi_hat-cache" part="OX40HAT"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58DFC771</tstamp>
-    </comp>
     <comp ref="H1">
       <value>3mm_Mounting_Hole</value>
       <footprint>project_footprints:NPTH_3mm_ID</footprint>
       <fields/>
       <libsource lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1AD1</tstamp>
-    </comp>
-    <comp ref="H3">
-      <value>3mm_Mounting_Hole</value>
-      <footprint>project_footprints:NPTH_3mm_ID</footprint>
-      <fields/>
-      <libsource lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1ADD</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834BC4A</tstamp>
     </comp>
     <comp ref="H2">
       <value>3mm_Mounting_Hole</value>
       <footprint>project_footprints:NPTH_3mm_ID</footprint>
       <fields/>
       <libsource lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1AE9</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834BCDF</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>3mm_Mounting_Hole</value>
+      <footprint>project_footprints:NPTH_3mm_ID</footprint>
+      <fields/>
+      <libsource lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834BD62</tstamp>
     </comp>
     <comp ref="H4">
       <value>3mm_Mounting_Hole</value>
       <footprint>project_footprints:NPTH_3mm_ID</footprint>
       <fields/>
       <libsource lib="raspberrrypi_hat-cache" part="3mm_Mounting_Hole"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1AF5</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834BDED</tstamp>
     </comp>
     <comp ref="J1">
+      <value>40HAT</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x20</footprint>
+      <libsource lib="raspberrrypi_hat-cache" part="OX40HAT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DFC771</tstamp>
+    </comp>
+    <comp ref="J2">
       <value>CONN_02X02</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x02</footprint>
       <libsource lib="conn" part="CONN_02X02"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1AFC</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E13683</tstamp>
     </comp>
-    <comp ref="Q2">
+    <comp ref="Q1">
       <value>DMG2305UX</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <libsource lib="raspberrypi_hat" part="DMG2305UX"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1B16</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E14EB1</tstamp>
     </comp>
-    <comp ref="Q1">
+    <comp ref="Q2">
       <value>DMMT5401</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
       <libsource lib="raspberrypi_hat" part="DMMT5401"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1B1D</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1538B</tstamp>
     </comp>
     <comp ref="R1">
       <value>22</value>
-      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <fields>
         <field name="MFR">Yageo</field>
         <field name="MPN">RC0402JR-0722RL</field>
@@ -102,25 +102,12 @@
         <field name="SPN">311-22JRCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1B30</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>22</value>
-      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0402JR-0722RL</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPN">311-22JRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1B3C</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E15896</tstamp>
     </comp>
     <comp ref="R2">
-      <value>DNP</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <value>22</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <fields>
         <field name="MFR">Yageo</field>
         <field name="MPN">RC0402JR-0722RL</field>
@@ -128,32 +115,19 @@
         <field name="SPN">311-22JRCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1B67</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>DNP</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0402JR-0722RL</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPN">311-22JRCT-ND</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B1B73</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E158A1</tstamp>
     </comp>
     <comp ref="U1">
       <value>CAT24C32</value>
       <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <libsource lib="raspberrypi_hat" part="CAT24C32"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B25BF</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1713F</tstamp>
     </comp>
     <comp ref="R7">
       <value>3.9K</value>
-      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <fields>
         <field name="MFR">Yageo</field>
         <field name="MPN">RC0402JR-0722RL</field>
@@ -161,12 +135,12 @@
         <field name="SPN">311-22JRCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B25CB</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E17715</tstamp>
     </comp>
     <comp ref="R8">
       <value>3.9K</value>
-      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <fields>
         <field name="MFR">Yageo</field>
         <field name="MPN">RC0402JR-0722RL</field>
@@ -174,19 +148,19 @@
         <field name="SPN">311-22JRCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B25D7</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E17720</tstamp>
     </comp>
-    <comp ref="J2">
+    <comp ref="J3">
       <value>CONN_01X02</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B25F4</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E18D32</tstamp>
     </comp>
     <comp ref="R6">
       <value>10K</value>
-      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <fields>
         <field name="MFR">Yageo</field>
         <field name="MPN">RC0402JR-0722RL</field>
@@ -194,12 +168,38 @@
         <field name="SPN">311-22JRCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B2600</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E19E51</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E22085</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402JR-0722RL</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">311-22JRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E2218F</tstamp>
     </comp>
     <comp ref="R5">
       <value>DNP</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <fields>
         <field name="MFR">Yageo</field>
         <field name="MPN">RC0402JR-0722RL</field>
@@ -207,8 +207,88 @@
         <field name="SPN">311-22JRCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/PiHAT/" tstamps="/594B14D0/"/>
-      <tstamp>594B2623</tstamp>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E22900</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4.7K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>59517F94</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>595181A9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4007</value>
+      <footprint>Diodes_ThroughHole:D_T-1_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>595181B3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>470µF</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>595182A8</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>SIM_Card</value>
+      <libsource lib="conn" part="SIM_Card"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>59518339</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>5951849C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>NeowayM590</value>
+      <footprint>project_footprints:NeowayM590</footprint>
+      <libsource lib="raspberrypi_hat" part="NeowayM590"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>59519A1D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1µF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>59541735</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100pF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>59541792</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>59541B77</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>59541C2B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100pF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/M590/" tstamps="/59517BD0/"/>
+      <tstamp>59542007</tstamp>
     </comp>
   </components>
   <libparts>
@@ -217,6 +297,20 @@
         <field name="Reference">H</field>
         <field name="Value">3mm_Mounting_Hole</field>
       </fields>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
     </libpart>
     <libpart lib="raspberrypi_hat" part="CAT24C32">
       <description>I2C Serial EEPROM 32Kb</description>
@@ -274,6 +368,38 @@
         <pin num="4" name="P4" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="raspberrypi_hat" part="DMG2305UX">
       <description>Transistor P-MOSFET</description>
       <footprints>
@@ -306,6 +432,49 @@
         <pin num="4" name="C" type="passive"/>
         <pin num="5" name="E" type="passive"/>
         <pin num="6" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="raspberrypi_hat" part="NeowayM590">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NeowayM590</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VBAT" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="LED" type="output"/>
+        <pin num="6" name="VCCIO" type="power_out"/>
+        <pin num="7" name="RXD" type="input"/>
+        <pin num="8" name="TXD" type="output"/>
+        <pin num="9" name="DTR" type="input"/>
+        <pin num="10" name="RING" type="output"/>
+        <pin num="11" name="SIMIO" type="BiDi"/>
+        <pin num="12" name="SIMCLK" type="output"/>
+        <pin num="13" name="SIMRST" type="output"/>
+        <pin num="14" name="SIMVCC" type="power_out"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="DCD" type="output"/>
+        <pin num="17" name="DSR" type="output"/>
+        <pin num="18" name="EMERGOFF" type="BiDi"/>
+        <pin num="19" name="ON/OFF" type="input"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="RF_ANT" type="BiDi"/>
       </pins>
     </libpart>
     <libpart lib="raspberrrypi_hat-cache" part="OX40HAT">
@@ -372,182 +541,271 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="conn" part="SIM_Card">
+      <description>SIM Card</description>
+      <footprints>
+        <fp>*SIM*Card*Holder*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SIM_Card</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="RST" type="input"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VPP" type="input"/>
+        <pin num="7" name="I/O" type="BiDi"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="raspberrypi_hat">
-      <uri>/home/dev/workspace/AllAboutNeowayM590/PCB/raspberrrypi_hat/project_components/raspberrypi_hat.lib</uri>
-    </library>
-    <library logical="raspberrrypi_hat-cache">
-      <uri>/home/dev/workspace/AllAboutNeowayM590/PCB/raspberrrypi_hat/raspberrrypi_hat-cache.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
+    <library logical="raspberrypi_hat">
+      <uri>/home/dev/workspace/AllAboutNeowayM590/PCB/raspberrrypi_hat/project_components/raspberrypi_hat.lib</uri>
+    </library>
+    <library logical="raspberrrypi_hat-cache">
+      <uri>/home/dev/workspace/AllAboutNeowayM590/PCB/raspberrrypi_hat/raspberrrypi_hat-cache.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="/P3V3_HAT">
-      <node ref="J3" pin="1"/>
-    </net>
-    <net code="2" name="GND">
-      <node ref="J3" pin="20"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U1" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="4"/>
-      <node ref="J2" pin="1"/>
-      <node ref="J3" pin="14"/>
-      <node ref="J3" pin="34"/>
-      <node ref="J3" pin="25"/>
-      <node ref="J3" pin="6"/>
-      <node ref="R4" pin="2"/>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
       <node ref="R1" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="J3" pin="9"/>
-      <node ref="J3" pin="30"/>
-      <node ref="J3" pin="39"/>
-    </net>
-    <net code="3" name="/ID_SD_EEPROM">
-      <node ref="J3" pin="27"/>
-    </net>
-    <net code="4" name="Net-(J3-Pad29)">
-      <node ref="J3" pin="29"/>
-    </net>
-    <net code="5" name="Net-(J3-Pad19)">
-      <node ref="J3" pin="19"/>
-    </net>
-    <net code="6" name="Net-(J3-Pad38)">
-      <node ref="J3" pin="38"/>
-    </net>
-    <net code="7" name="Net-(J3-Pad18)">
-      <node ref="J3" pin="18"/>
-    </net>
-    <net code="8" name="/ID_SC_EEPROM">
-      <node ref="J3" pin="28"/>
-    </net>
-    <net code="9" name="/P5V_HAT">
-      <node ref="J3" pin="2"/>
-      <node ref="J3" pin="4"/>
-    </net>
-    <net code="10" name="Net-(J3-Pad12)">
-      <node ref="J3" pin="12"/>
-    </net>
-    <net code="11" name="Net-(J3-Pad31)">
-      <node ref="J3" pin="31"/>
-    </net>
-    <net code="12" name="Net-(J3-Pad21)">
-      <node ref="J3" pin="21"/>
-    </net>
-    <net code="13" name="Net-(J3-Pad11)">
-      <node ref="J3" pin="11"/>
-    </net>
-    <net code="14" name="Net-(J3-Pad40)">
-      <node ref="J3" pin="40"/>
-    </net>
-    <net code="15" name="Net-(J3-Pad10)">
-      <node ref="J3" pin="10"/>
-    </net>
-    <net code="16" name="Net-(J3-Pad8)">
-      <node ref="J3" pin="8"/>
-    </net>
-    <net code="17" name="Net-(J3-Pad7)">
-      <node ref="J3" pin="7"/>
-    </net>
-    <net code="18" name="Net-(J3-Pad5)">
-      <node ref="J3" pin="5"/>
-    </net>
-    <net code="19" name="Net-(J3-Pad3)">
-      <node ref="J3" pin="3"/>
-    </net>
-    <net code="20" name="Net-(J3-Pad37)">
-      <node ref="J3" pin="37"/>
-    </net>
-    <net code="21" name="Net-(J3-Pad32)">
-      <node ref="J3" pin="32"/>
-    </net>
-    <net code="22" name="Net-(J3-Pad22)">
-      <node ref="J3" pin="22"/>
-    </net>
-    <net code="23" name="Net-(J3-Pad17)">
-      <node ref="J3" pin="17"/>
-    </net>
-    <net code="24" name="Net-(J3-Pad36)">
-      <node ref="J3" pin="36"/>
-    </net>
-    <net code="25" name="Net-(J3-Pad26)">
-      <node ref="J3" pin="26"/>
-    </net>
-    <net code="26" name="Net-(J3-Pad16)">
-      <node ref="J3" pin="16"/>
-    </net>
-    <net code="27" name="Net-(J3-Pad35)">
-      <node ref="J3" pin="35"/>
-    </net>
-    <net code="28" name="Net-(J3-Pad24)">
-      <node ref="J3" pin="24"/>
-    </net>
-    <net code="29" name="Net-(J3-Pad33)">
-      <node ref="J3" pin="33"/>
-    </net>
-    <net code="30" name="Net-(J3-Pad23)">
-      <node ref="J3" pin="23"/>
-    </net>
-    <net code="31" name="Net-(J3-Pad13)">
-      <node ref="J3" pin="13"/>
-    </net>
-    <net code="32" name="Net-(J3-Pad15)">
-      <node ref="J3" pin="15"/>
-    </net>
-    <net code="33" name="/PiHAT/ID_SD_EEPROM">
-      <node ref="R7" pin="2"/>
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="34" name="/PiHAT/ID_SC_EEPROM">
-      <node ref="U1" pin="5"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="35" name="/PiHAT/P3V3">
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="30"/>
+      <node ref="J1" pin="25"/>
+      <node ref="J1" pin="39"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="34"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
       <node ref="R2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="20"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="2" name="/ID_SD_EEPROM">
+      <node ref="J1" pin="27"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="3" name="/P3V3_HAT">
       <node ref="J1" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="R8" pin="1"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="36" name="Net-(J2-Pad2)">
       <node ref="J2" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="U1" pin="7"/>
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="37" name="/PiHAT/P5V_HAT">
-      <node ref="J1" pin="4"/>
-      <node ref="Q1" pin="5"/>
-      <node ref="Q2" pin="2"/>
       <node ref="R3" pin="1"/>
     </net>
-    <net code="38" name="/PiHAT/P3V3_HAT">
-      <node ref="R2" pin="1"/>
-      <node ref="J1" pin="2"/>
-    </net>
-    <net code="39" name="/PiHAT/P5V">
+    <net code="4" name="/P3V3">
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="J2" pin="1"/>
       <node ref="R3" pin="2"/>
-      <node ref="J1" pin="3"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="Q1" pin="6"/>
     </net>
-    <net code="40" name="Net-(Q1-Pad1)">
-      <node ref="R1" pin="1"/>
+    <net code="5" name="/ID_SC_EEPROM">
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="28"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="6" name="/TXD">
+      <node ref="R9" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="7" name="/P5V">
       <node ref="Q1" pin="3"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="Q1" pin="1"/>
+      <node ref="Q2" pin="6"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="3"/>
     </net>
-    <net code="41" name="Net-(Q1-Pad4)">
+    <net code="8" name="/RXD">
+      <node ref="R10" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="9" name="/M590/RING">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="10" name="/M590/BOOT">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="11" name="/P5V_HAT">
+      <node ref="J1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="5"/>
       <node ref="R4" pin="1"/>
-      <node ref="Q1" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="12" name="Net-(J3-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad35)">
+      <node ref="J1" pin="35"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad16)">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad26)">
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad36)">
+      <node ref="J1" pin="36"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad17)">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="18" name="Net-(J1-Pad37)">
+      <node ref="J1" pin="37"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad18)">
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad38)">
+      <node ref="J1" pin="38"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad19)">
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="22" name="Net-(J1-Pad29)">
+      <node ref="J1" pin="29"/>
+    </net>
+    <net code="23" name="Net-(J1-Pad11)">
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="27" name="Net-(J1-Pad40)">
+      <node ref="J1" pin="40"/>
+    </net>
+    <net code="28" name="Net-(J1-Pad21)">
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="29" name="Net-(J1-Pad31)">
+      <node ref="J1" pin="31"/>
+    </net>
+    <net code="30" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="31" name="Net-(J1-Pad22)">
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="32" name="Net-(J1-Pad32)">
+      <node ref="J1" pin="32"/>
+    </net>
+    <net code="33" name="Net-(J1-Pad13)">
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad23)">
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad33)">
+      <node ref="J1" pin="33"/>
+    </net>
+    <net code="36" name="Net-(J1-Pad24)">
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad15)">
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="38" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="Q2" pin="2"/>
       <node ref="Q2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="39" name="Net-(Q1-Pad1)">
+      <node ref="Q2" pin="4"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="40" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="41" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="42" name="/M590/SIMVCC">
+      <node ref="U2" pin="14"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="43" name="Net-(J4-Pad7)">
+      <node ref="U2" pin="11"/>
+      <node ref="J4" pin="7"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="44" name="Net-(R11-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="45" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="46" name="/M590/VBAT">
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="47" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="48" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="49" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="50" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="53" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
     </net>
   </nets>
 </export>

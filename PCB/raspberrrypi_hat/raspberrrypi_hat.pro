@@ -1,4 +1,4 @@
-update=4/4/2017 23:33:30
+update=jeu. 29 juin 2017 23:42:54 CEST
 version=1
 last_client=kicad
 [general]
@@ -24,9 +24,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[cvpcb]
-version=1
-NetIExt=net
 [eeschema]
 version=1
 LibDir=
@@ -61,3 +58,6 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=project_components/raspberrypi_hat
+[cvpcb]
+version=1
+NetIExt=net
