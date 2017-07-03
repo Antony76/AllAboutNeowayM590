@@ -197,9 +197,9 @@ RING
 Text Label 1650 1800 2    60   ~ 0
 BOOT
 Text Label 2400 3450 2    60   ~ 0
-RXD
+mRXD
 Text Label 2400 3300 2    60   ~ 0
-TXD
+mTXD
 Wire Wire Line
 	6550 2550 6900 2550
 Wire Wire Line
@@ -246,9 +246,9 @@ Wire Wire Line
 Wire Wire Line
 	5250 3250 4250 3250
 Text Label 4250 3150 0    60   ~ 0
-RXD
+mRXD
 Text Label 4250 3250 0    60   ~ 0
-TXD
+mTXD
 Wire Wire Line
 	5250 3450 4250 3450
 Text Label 4250 3450 0    60   ~ 0
