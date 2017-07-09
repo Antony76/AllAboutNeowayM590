@@ -36,9 +36,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "M590 Raspberry Pi HAT"
-Date "2017-06-29"
+Date "2017-07-09"
 Rev "0.1"
-Comp "IOT Machine"
+Comp "IOTilt"
 Comment1 ""
 Comment2 ""
 Comment3 ""
