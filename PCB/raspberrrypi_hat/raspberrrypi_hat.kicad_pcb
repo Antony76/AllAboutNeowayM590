@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 74.244762 54 229.685714 128.300001)
     (thickness 1.6)
-    (drawings 54)
+    (drawings 55)
     (tracks 198)
     (zones 0)
     (modules 32)
@@ -1610,6 +1610,9 @@
       (net 1 GND))
   )
 
+  (gr_text "Version 0.1" (at 140.011 103.152 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
   (gr_text "IOTilt M590 GSM/GPRS Raspberry pi HAT" (at 110.801 114.8995) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
