@@ -413,7 +413,7 @@ F 3 "" H 1100 5300 50  0000 C CNN
 	1    1100 5300
 	1    0    0    -1  
 $EndComp
-Text Notes 2850 4550 0    60   ~ 0
+Text Notes 500  5600 0    60   ~ 0
 EEPROM WRITE ENABLE
 $Comp
 L R R3
