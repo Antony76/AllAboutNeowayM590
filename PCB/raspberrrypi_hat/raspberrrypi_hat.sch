@@ -35,8 +35,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "M590 Raspberry Pi HAT"
-Date "2017-07-09"
+Title "IOTilt M590 GSM/GPRS Raspberry pi HAT"
+Date "2017-07-10"
 Rev "0.1"
 Comp "IOTilt"
 Comment1 ""
