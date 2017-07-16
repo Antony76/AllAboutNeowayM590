@@ -1,0 +1,11 @@
+Sim card pins.
+
+1-    VCC (power supply)
+2-    RST (reset)
+3-    CLK (clock)
+4-    NC (D+ (USB Inter-chip))
+5-    GND (ground)
+6-    VPP (voltage programming power)
+7-    I/O (input/output)
+8-    NC (D- (USB Inter-chip))
+
