@@ -114,7 +114,7 @@ U 1 1 58DFC771
 P 2100 1600
 F 0 "J1" H 2450 1700 50  0000 C CNN
 F 1 "40HAT" H 1800 1700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 2100 1800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 2100 1800 50  0000 C CNN
 F 3 "" H 1400 1600 50  0000 C CNN
 	1    2100 1600
 	1    0    0    -1  
